@@ -1,0 +1,38 @@
+# macOS specific files
+.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React Native
+ios/Pods/
+ios/build/
+ios/Pods*.xcworkspace
+ios/*.xcodeproj/
+android/.gradle/
+android/local.properties
+android/.idea/
+android/captures/
+android/build/
+android/app/build/
+
+# Compiled files
+*.apk
+*.aab
+*.app
+*.ipa
+*.xcarchive
+
+# Test coverage
+/coverage
+
+# Miscellaneous
+.env
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+/vendor/
